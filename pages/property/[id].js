@@ -47,7 +47,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
         </Flex>
         {furnishingStatus && (
           <Flex justifyContent={"space-between"} w="400px" borderBottom={"1px"} p="3" borderColor="gray.100">
-            <Text>furnishing Status</Text>
+            <Text>Status Perabotan</Text>
             <Text fontWeight={"bold"}>{furnishingStatus}</Text>
           </Flex>
         )}
@@ -55,7 +55,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
       <Box>
         {amenities.length && (
           <Text fontSize={"2xl"} fontWeight="black" mt="5">
-            Amenities
+            Fasilitas
           </Text>
         )}
         <Flex flexWrap={"wrap"}>
